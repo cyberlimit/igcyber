@@ -1,0 +1,71 @@
+#! / bin / bash
+# versi 1.0
+
+bersih
+# Variabel
+b = ' \ 033 [1 m '
+u = ' \ 033 [4m '
+bl = ' \ E [30m '
+r = ' \ E [31m '
+g = ' \ E [32m '
+bu = ' \ E [34m '
+m = ' \ E [35m '
+c = ' \ E [36m '
+w = ' \ E [37m '
+endc = ' \ E [0m '
+enda = ' \ 033 [0m '
+blue = ' \ e [1; 34m '
+cyan = ' \ e [1; 36m '
+red = ' \ e [1; 31m '
+
+cowsay -f eyes " Termux.id "  | lolcat
+figlet -f miring " Termux.id "  | lolcat
+gema  "   <===================== [] ====================> "  | lolcat
+echo  "   <===== [Alat Bantu Oleh AyipBontos] =====> "  | lolcat
+echo  "   <===== [Hubungi Saya: +6282278198738] =====> "  | lolcat
+gema  "   <===================== [] ====================> "  | lolcat
+
+tidur 1
+
+# ############################################## #
+# CTRL + C
+# ############################################## #
+menjebak ctrl_c INT
+ctrl_c () {
+bersih
+bersih
+tidur 1
+keluar
+}
+
+
+lagi = 1
+sementara [ $ lagi  -lt 6] ;
+melakukan
+gema  " "
+echo -e $ b  " 1. Pasword TXT $ {enda} " ;
+echo -e $ b  " 2. Proxy TXT $ {enda} " ;
+echo -e $ b  " 3. Langsung Crack $ {enda} " ;
+echo -e $ b  " 00. Keluar $ {enda} " ;
+baca -p " Pilih Nomernya => " pil ;
+
+case  $ pil  masuk
+1) nano abc.txt
+gema
+
+;;
+2) nano abcd.txt
+gema
+
+;;
+3) python2 init.py
+
+;;
+
+00) keluar
+;;
+
+* ) echo  " Pilih Sesuai List Anjenk "
+esac
+selesai
+selesai
