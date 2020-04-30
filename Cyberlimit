@@ -21,8 +21,10 @@ red = ' \ e [1; 31m '
 cowsay -f eyes " Termux.id "  | lolcat
 figlet -f miring " Termux.id "  | lolcat
 gema  "   <===================== [] ====================> "  | lolcat
-echo  "   <===== [Alat Bantu Oleh AyipBontos] =====> "  | lolcat
-echo  "   <===== [Hubungi Saya: +6282278198738] =====> "  | lolcat
+echo  "   <===== [Alat Bantu Oleh Cyber Limit] =====> "  | lolcat
+echo  "   <===== [Hubungi Saya: +1 2342050284] =====> "  | lolcat
+echo  "   <===== [YouTube: Cyber Limit] =====> "  | lolcat
+echo  "   <===== [Instagram : Wisnu_eg] =====> "  | lolcat
 gema  "   <===================== [] ====================> "  | lolcat
 
 tidur 1
